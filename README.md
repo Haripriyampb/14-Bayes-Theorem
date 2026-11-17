@@ -1,8 +1,5 @@
 # Probability Distributions Using Python
-
-## Experiment 16
-
-### Overview
+## Overview
 
 This repository contains the implementation of **Experiment 16 – Probability Distributions**, using Python and Jupyter Notebook.
 
