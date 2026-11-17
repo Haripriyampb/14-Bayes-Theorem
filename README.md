@@ -1,105 +1,63 @@
-# Probability Distributions Using Python
-## Overview
+# Bayes' Theorem – Probability Theory
 
-This repository contains the implementation of **Experiment 16 – Probability Distributions**, using Python and Jupyter Notebook.
+## 📌 Overview
+Bayes' Theorem is a fundamental concept in probability theory that helps us calculate the probability of an event based on previously known information or new evidence.
 
-Probability distributions are mathematical functions that describe how the possible values of a random variable are distributed. They help us understand the likelihood of different outcomes in a random experiment.
+It is used to update the probability of an event when additional information becomes available.
 
-This experiment focuses on exploring probability distributions through Python-based computational methods and numerical analysis.
+## 🎯 Objectives
+- Understand the concept of conditional probability.
+- Learn the mathematical formula of Bayes' Theorem.
+- Calculate probabilities using given evidence.
+- Understand how prior probability is updated using new information.
+- Explore real-world applications of Bayes' Theorem.
 
----
+## 📖 Mathematical Formula
 
-## Objectives
+Bayes' Theorem is expressed as:
 
-- To understand the fundamental concept of probability distributions.
-- To explore the behaviour of random variables.
-- To understand how probability is distributed across different possible outcomes.
-- To implement probability distribution concepts using Python.
-- To use computational techniques for analysing and representing probability distributions.
+**P(A|B) = [P(B|A) × P(A)] / P(B)**
 
----
+Where:
 
-## Technologies and Tools Used
+- **P(A|B):** Posterior probability – probability of A given B.
+- **P(B|A):** Likelihood – probability of B given A.
+- **P(A):** Prior probability – initial probability of A.
+- **P(B):** Evidence – total probability of observing B.
 
-| Tool | Purpose |
-|---|---|
-| Python | Programming language |
-| Jupyter Notebook | Interactive coding environment |
-| NumPy | Numerical computations |
-| Matplotlib | Data visualization |
-| SciPy | Scientific and statistical computations |
+## 🔍 Example
 
-*Note: The libraries listed above are relevant tools for probability distribution work; their actual use depends on the notebook implementation.*
+A medical test gives:
+- 95% positive results for people who have a disease.
+- 2% positive results for people who do not have the disease.
+- 1% of the population has the disease.
 
----
+Using Bayes' Theorem, we can calculate the probability that a person actually has the disease given that their test result is positive.
 
-## Repository Structure
+This demonstrates how new evidence helps us update an initial probability.
 
-```text
-Probability-distribution/
-│
-├── 16_Probability distributions.ipynb
-│
-└── README.md
-```
+## 💡 Applications
+1. Medical diagnosis and disease prediction.
+2. Spam email classification.
+3. Machine Learning and Artificial Intelligence.
+4. Fraud detection.
+5. Weather forecasting.
+6. Decision-making under uncertainty.
 
----
+## 🛠️ Technologies Used
+- Python
+- Probability Theory
+- Statistical Mathematics
 
-## Topics Covered
+## 📚 Key Learning Outcomes
+- Understanding conditional probability.
+- Applying Bayes' Theorem to real-world problems.
+- Distinguishing prior, likelihood, evidence and posterior probabilities.
+- Developing mathematical and analytical problem-solving skills.
 
-Probability distributions generally include the following concepts:
+## 📝 Conclusion
 
-1. **Random Variables:** Variables whose values depend on the outcomes of random experiments.
-2. **Discrete Probability Distributions:** Distributions that describe countable possible outcomes.
-3. **Continuous Probability Distributions:** Distributions that describe variables taking values over continuous intervals.
-4. **Probability Mass Function (PMF):** Represents probabilities for discrete random variables.
-5. **Probability Density Function (PDF):** Describes the density of continuous random variables.
-6. **Cumulative Distribution Function (CDF):** Represents the probability that a random variable takes a value less than or equal to a given value.
+Bayes' Theorem provides a systematic way to update probabilities using new evidence. It is an important foundation for statistical inference, machine learning and intelligent decision-making.
 
----
-
-## Applications of Probability Distributions
-
-Probability distributions are widely used in:
-
-- Data Science and Machine Learning.
-- Statistical data analysis.
-- Risk assessment and prediction.
-- Scientific research.
-- Decision-making under uncertainty.
-- Artificial Intelligence.
-
----
-
-## How to Run the Notebook
-
-1. Clone or download this repository.
-2. Install Python and Jupyter Notebook.
-3. Install the required libraries if they are used in the notebook.
-4. Open Jupyter Notebook.
-5. Open `16_Probability distributions.ipynb`.
-6. Execute the notebook cells to view the implementation and results.
-
----
-
-## Author
-
-**Haripriya M.P.**
-
-Computer Science and Engineering
-
----
-
-## Experiment Details
-
-| Detail | Information |
-|---|---|
-| Experiment Number | 16 |
-| Experiment Name | Probability Distributions |
-| Programming Language | Python |
-| Notebook Format | Jupyter Notebook |
-| Repository | Probability-distribution |
-
----
-
-*This repository is maintained as part of academic coursework and practical programming experiments.*
+## 👩‍💻 Author
+Haripriya M.P.
